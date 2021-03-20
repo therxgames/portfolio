@@ -1,0 +1,160 @@
+@media(min-width: 1100px) and (max-width: 1300px){
+	.wrapper{
+		max-width: 1000px;
+	}
+}
+
+@media(min-width: 1000px) and (max-width: 1100px){
+	.wrapper{
+		max-width: 800px;
+	}
+}
+
+@media(min-width: 800px) and (max-width: 1000px){
+	.wrapper{
+		max-width: 700px;
+	}
+	.my_photo img{
+		width: 500px;
+		height: 300px;
+	}
+}
+
+@media(min-width: 600px) and (max-width: 800px){
+	.wrapper{
+		max-width: 500px;
+	}
+	.my_photo img{
+		display: none;
+	}
+	header .wrapper{
+		padding: 10px 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	header .wrapper .name .point {
+  	  font-size: 18px;
+	}
+	header .wrapper .header_navigation li {
+	  margin: 8px 0 8px 20px;
+	}
+	.name{
+		display: none;
+	}
+	#hello{
+		padding-top: 50px;
+	}
+	.skills .wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.skills .wrapper .my_skills_list{
+		padding-left: 0;
+	}
+	.education .wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.education .wrapper .education_list{
+		padding-left: 0;
+	}
+	.contact .wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.contact .wrapper .contact_form{
+		padding-top: 20px;
+	}
+	.contact_me-form{
+		width: 500px;
+	}
+}
+
+@media(min-width: 320px) and (max-width: 600px){
+	.wrapper{
+		max-width: 300px;
+	}
+	.my_photo img{
+		display: none;
+	}
+	header .wrapper{
+		padding: 10px 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	header .wrapper .name .point {
+  	  font-size: 18px;
+	}
+
+	header .wrapper .header_navigation{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	header .wrapper .header_navigation li {
+	  margin: 8px 0 8px 20px;
+	}
+	.name{
+		display: none;
+	}
+	#hello{
+		padding-top: 40px;
+	}
+	.hello{
+		margin-top: 70px;
+		padding-bottom: 0;
+	}
+	.hello .wrapper .about_me .about_me_title{
+		font-size: 24px;
+	}
+	.skills .wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.skills .wrapper .my_skills_list{
+		padding-left: 0;
+	}
+	.education .wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.education .wrapper .education_list{
+		padding-left: 0;
+	}
+	.contact .wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.contact .wrapper .contact_form{
+		padding-top: 20px;
+	}
+	.contact .wrapper .contact_form .send_message{
+		justify-content: center;
+	}
+	.hello .wrapper .about_me .about_me_button{
+		justify-content: center;
+		display: flex;
+	}
+	.contact_me-form{
+		width: 300px;
+	}
+	.contact_me-form .send_message{
+		display: flex;
+		flex-direction: column;
+	}
+	.box-big-title{
+		font-size: 18px;
+	}
+	.box-sm-title{
+		font-size: 16px;
+	}
+	.gray_button{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.portfolio_projects{
+		justify-content: center;
+	}
+}
