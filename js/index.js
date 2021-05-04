@@ -56,6 +56,14 @@ const portfolioProjects = [
         type: 'Front-end',
         href: 'https://therxgames.github.io/project_7-Front-end-/'
     },
+    {
+        id: 8,
+        title: 'Kazino',
+        date: 'March,2021',
+        src: 'img/project-8.jpg',
+        type: 'Front-end',
+        href: 'https://therxgames.github.io/project_8-Front-end-/'
+    },
     
 ]
 
