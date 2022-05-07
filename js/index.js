@@ -65,14 +65,21 @@ const portfolioProjects = [
         href: 'https://therxgames.github.io/project_8-Front-end-/'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Chat',
         date: 'April,2022',
         src: 'img/project-9.jpg',
         type: 'Fullstack',
         href: 'https://github.com/therxgames/Chat_React_Redux_Express'
     },
-    
+    {
+        id: 10,
+        title: 'User_Profile',
+        date: 'May,2022',
+        src: 'img/project-10.jpg',
+        type: 'Front-end',
+        href: 'https://github.com/therxgames/User_Profile_React_Typescript'
+    },
 ]
 
 const divProjects = document.createElement('div');
